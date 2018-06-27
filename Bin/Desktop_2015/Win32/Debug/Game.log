@@ -1,0 +1,53 @@
+﻿Build started 08/12/2016 12:53:23.
+     1>Project "G:\GEATurret\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (..\Bin\Desktop_2015\Win32\Debug\) contains files shared from another project (DirectXTKAudio_Desktop_2015_Win8.vcxproj, DirectXTK_Desktop_2015.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\Inc /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _DEBUG /D DEBUG /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"..\Bin\Desktop_2015\Win32\Debug\\" /Fd"..\Bin\Desktop_2015\Win32\Debug\Game.pdb" /Gd /TP /analyze- /errorReport:prompt Bullet.cpp Camera.cpp CMOGO.cpp Enemy.cpp EnemyManager.cpp Game.cpp GameObject.cpp Gun.cpp Terrain.cpp TPSCam.cpp Vehicle.cpp
+         Vehicle.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\geaturret\game\vehicle.h(34): warning C4305: 'initializing': truncation from 'double' to 'float'
+         TPSCam.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Terrain.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Gun.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         GameObject.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Game.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\geaturret\game\vehicle.h(34): warning C4305: 'initializing': truncation from 'double' to 'float'
+     1>g:\geaturret\game\game.cpp(319): warning C4018: '<': signed/unsigned mismatch
+     1>g:\geaturret\game\game.cpp(322): warning C4018: '<': signed/unsigned mismatch
+     1>g:\geaturret\game\game.cpp(337): warning C4018: '<': signed/unsigned mismatch
+         EnemyManager.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Enemy.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>g:\geaturret\game\enemy.cpp(76): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>g:\geaturret\game\enemy.cpp(81): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+         CMOGO.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Camera.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Bullet.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\Bin\Desktop_2015\Win32\Debug\Game.lib" /NOLOGO ..\Bin\Desktop_2015\Win32\Debug\Bullet.obj
+         ..\Bin\Desktop_2015\Win32\Debug\Camera.obj
+         ..\Bin\Desktop_2015\Win32\Debug\CMOGO.obj
+         ..\Bin\Desktop_2015\Win32\Debug\Enemy.obj
+         ..\Bin\Desktop_2015\Win32\Debug\EnemyManager.obj
+         ..\Bin\Desktop_2015\Win32\Debug\Game.obj
+         ..\Bin\Desktop_2015\Win32\Debug\GameObject.obj
+         ..\Bin\Desktop_2015\Win32\Debug\Gun.obj
+         ..\Bin\Desktop_2015\Win32\Debug\Terrain.obj
+         ..\Bin\Desktop_2015\Win32\Debug\TPSCam.obj
+         ..\Bin\Desktop_2015\Win32\Debug\Vehicle.obj
+         Game.vcxproj -> G:\GEATurret\Game\..\Bin\Desktop_2015\Win32\Debug\Game.lib
+     1>Done Building Project "G:\GEATurret\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.74

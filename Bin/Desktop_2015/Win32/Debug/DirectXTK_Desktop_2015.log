@@ -1,0 +1,78 @@
+﻿Build started 08/12/2016 12:52:09.
+     1>Project "G:\GEATurret\DirectXTK_Desktop_2015.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Bin\Desktop_2015\Win32\Debug\) contains files shared from another project (DirectXTKAudio_Desktop_2015_Win8.vcxproj, Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IG:\GEATurret\Inc /ZI /nologo /W4 /WX- /Od /Oy- /D _WIN32_WINNT=0x0600 /D _WIN7_PLATFORM_UPDATE /D WIN32 /D _DEBUG /D _LIB /D _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"Bin\Desktop_2015\Win32\Debug\DirectXTK.pch" /Fo"Bin\Desktop_2015\Win32\Debug\\" /Fd"Bin\Desktop_2015\Win32\Debug\DirectXTK.pdb" /Gd /TP /analyze- /errorReport:prompt Src\pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IG:\GEATurret\Inc /ZI /nologo /W4 /WX- /Od /Oy- /D _WIN32_WINNT=0x0600 /D _WIN7_PLATFORM_UPDATE /D WIN32 /D _DEBUG /D _LIB /D _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Bin\Desktop_2015\Win32\Debug\DirectXTK.pch" /Fo"Bin\Desktop_2015\Win32\Debug\\" /Fd"Bin\Desktop_2015\Win32\Debug\DirectXTK.pdb" /Gd /TP /analyze- /errorReport:prompt Src\AlphaTestEffect.cpp Src\BasicEffect.cpp Src\CommonStates.cpp Src\DDSTextureLoader.cpp Src\DGSLEffect.cpp Src\DGSLEffectFactory.cpp Src\DualTextureEffect.cpp Src\BinaryReader.cpp Src\EffectCommon.cpp Src\EffectFactory.cpp Src\EnvironmentMapEffect.cpp Src\GamePad.cpp Src\GeometricPrimitive.cpp Src\Geometry.cpp Src\GraphicsMemory.cpp Src\Keyboard.cpp Src\Model.cpp Src\ModelLoadCMO.cpp Src\ModelLoadSDKMESH.cpp Src\ModelLoadVBO.cpp Src\Mouse.cpp Src\NormalMapEffect.cpp Src\ScreenGrab.cpp Src\SimpleMath.cpp Src\SkinnedEffect.cpp Src\SpriteBatch.cpp Src\PrimitiveBatch.cpp Src\SpriteFont.cpp Src\VertexTypes.cpp Src\WICTextureLoader.cpp
+         WICTextureLoader.cpp
+         VertexTypes.cpp
+         SpriteFont.cpp
+         PrimitiveBatch.cpp
+         SpriteBatch.cpp
+         SkinnedEffect.cpp
+         SimpleMath.cpp
+         ScreenGrab.cpp
+         NormalMapEffect.cpp
+         Mouse.cpp
+         ModelLoadVBO.cpp
+         ModelLoadSDKMESH.cpp
+         ModelLoadCMO.cpp
+         Model.cpp
+         Keyboard.cpp
+         GraphicsMemory.cpp
+         Geometry.cpp
+         GeometricPrimitive.cpp
+         GamePad.cpp
+         EnvironmentMapEffect.cpp
+         Generating Code...
+         Compiling...
+         EffectFactory.cpp
+         EffectCommon.cpp
+         BinaryReader.cpp
+         DualTextureEffect.cpp
+         DGSLEffectFactory.cpp
+         DGSLEffect.cpp
+         DDSTextureLoader.cpp
+         CommonStates.cpp
+         BasicEffect.cpp
+         AlphaTestEffect.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"Bin\Desktop_2015\Win32\Debug\DirectXTK.lib" /NOLOGO Bin\Desktop_2015\Win32\Debug\AlphaTestEffect.obj
+         Bin\Desktop_2015\Win32\Debug\BasicEffect.obj
+         Bin\Desktop_2015\Win32\Debug\CommonStates.obj
+         Bin\Desktop_2015\Win32\Debug\DDSTextureLoader.obj
+         Bin\Desktop_2015\Win32\Debug\DGSLEffect.obj
+         Bin\Desktop_2015\Win32\Debug\DGSLEffectFactory.obj
+         Bin\Desktop_2015\Win32\Debug\DualTextureEffect.obj
+         Bin\Desktop_2015\Win32\Debug\BinaryReader.obj
+         Bin\Desktop_2015\Win32\Debug\EffectCommon.obj
+         Bin\Desktop_2015\Win32\Debug\EffectFactory.obj
+         Bin\Desktop_2015\Win32\Debug\EnvironmentMapEffect.obj
+         Bin\Desktop_2015\Win32\Debug\GamePad.obj
+         Bin\Desktop_2015\Win32\Debug\GeometricPrimitive.obj
+         Bin\Desktop_2015\Win32\Debug\Geometry.obj
+         Bin\Desktop_2015\Win32\Debug\GraphicsMemory.obj
+         Bin\Desktop_2015\Win32\Debug\Keyboard.obj
+         Bin\Desktop_2015\Win32\Debug\Model.obj
+         Bin\Desktop_2015\Win32\Debug\ModelLoadCMO.obj
+         Bin\Desktop_2015\Win32\Debug\ModelLoadSDKMESH.obj
+         Bin\Desktop_2015\Win32\Debug\ModelLoadVBO.obj
+         Bin\Desktop_2015\Win32\Debug\Mouse.obj
+         Bin\Desktop_2015\Win32\Debug\NormalMapEffect.obj
+         Bin\Desktop_2015\Win32\Debug\pch.obj
+         Bin\Desktop_2015\Win32\Debug\ScreenGrab.obj
+         Bin\Desktop_2015\Win32\Debug\SimpleMath.obj
+         Bin\Desktop_2015\Win32\Debug\SkinnedEffect.obj
+         Bin\Desktop_2015\Win32\Debug\SpriteBatch.obj
+         Bin\Desktop_2015\Win32\Debug\PrimitiveBatch.obj
+         Bin\Desktop_2015\Win32\Debug\SpriteFont.obj
+         Bin\Desktop_2015\Win32\Debug\VertexTypes.obj
+         Bin\Desktop_2015\Win32\Debug\WICTextureLoader.obj
+         DirectXTK_Desktop_2015.vcxproj -> G:\GEATurret\Bin\Desktop_2015\Win32\Debug\DirectXTK.lib
+     1>Done Building Project "G:\GEATurret\DirectXTK_Desktop_2015.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:41.95
